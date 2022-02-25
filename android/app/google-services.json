@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "226697542182",
+    "project_id": "chat-app-33a17",
+    "storage_bucket": "chat-app-33a17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226697542182:android:3884f7e9f62566c19784e7",
+        "android_client_info": {
+          "package_name": "com.azzam.chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226697542182-n0a4i190juotrk0rusa39jjegjec59c8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUe3GyDqgFsCNcjE25uvgEucQ6bhlorbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226697542182-n0a4i190juotrk0rusa39jjegjec59c8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

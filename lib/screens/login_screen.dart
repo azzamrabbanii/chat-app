@@ -39,7 +39,9 @@ class _LoginScreenState extends State<LoginScreen> {
               keyboardType: TextInputType.emailAddress,
               style: const TextStyle(color: Colors.black),
               textAlign: TextAlign.center,
-              onChanged: (value) {},
+              onChanged: (value) {
+                email = value;
+              },
               decoration: InputDecoration(
                   hintText: 'Enter your Email',
                   hintStyle: const TextStyle(color: Colors.grey, fontSize: 15),
@@ -64,7 +66,9 @@ class _LoginScreenState extends State<LoginScreen> {
               obscureText: true,
               style: const TextStyle(color: Colors.black),
               textAlign: TextAlign.center,
-              onChanged: (value) {},
+              onChanged: (value) {
+                password = value;
+              },
               decoration: InputDecoration(
                   hintText: 'Enter Your Password',
                   hintStyle: const TextStyle(color: Colors.grey, fontSize: 15),

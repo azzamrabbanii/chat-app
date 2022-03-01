@@ -42,7 +42,7 @@ class _LoginScreenState extends State<LoginScreen> {
               onChanged: (value) {},
               decoration: InputDecoration(
                   hintText: 'Enter your Email',
-                  hintStyle: TextStyle(color: Colors.grey, fontSize: 15),
+                  hintStyle: const TextStyle(color: Colors.grey, fontSize: 15),
                   contentPadding: const EdgeInsets.symmetric(
                       vertical: 10.0, horizontal: 20.0),
                   border: const OutlineInputBorder(
